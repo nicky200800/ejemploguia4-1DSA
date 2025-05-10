@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Selectores en CSS</title>
+    <style>
+        p a {
+            font-size: 18pt;
+            color: blue;
+            font-family: tahoma;
+        }
+        div > p {
+            font-size: 16pt;
+            color: green;
+            font-family: verdana;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Probando el selector de descendencia.</p>
+        <p>
+            <a href="http://www.google.com">Ir a Google</a>
+        </p>
+    </div>
+    <div>
+        <p>Este párrafo también será estilizado por el selector de descendencia.</p>
+    </div>
+</body>
+</html>

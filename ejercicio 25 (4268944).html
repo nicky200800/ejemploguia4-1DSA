@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding en CSS</title>
+    <style>
+        .padding-individual {
+            width: 345px;
+            height: 309px;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .padding-shorthand {
+            width: 345px;
+            height: 309px;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 20px 20px 20px 20px;
+        }
+        .padding-universal {
+            width: 345px;
+            height: 309px;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        img {
+            width: 178px;
+            height: 194px;
+        }
+    </style>
+</head>
+<body>
+    <section class="padding-individual">Padding definido individualmente.</section>
+    <section class="padding-shorthand">Padding con notación abreviada.</section>
+    <section class="padding-universal">Padding uniforme en todos los lados.</section>
+    <img src="imagen.jpg" alt="Ejemplo de imagen con padding">
+</body>
+</html>
